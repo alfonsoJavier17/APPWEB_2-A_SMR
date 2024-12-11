@@ -1,0 +1,34 @@
+/*El display sireve para permitir cambiar la posicion de tus elemetos 
+/*----------General----------*/
+
+body{
+
+}
+
+
+
+
+/*----------Header----------*/
+
+.cabecera{
+    background-color: #010101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecera__logo{
+    width: 20%;
+}
+
+.cabecera__nav__lista{
+    display: flex;
+}
+
+.cabecera__nav__lista__enlace{
+    margin-right: 3rem;
+    color: aliceblue;
+}
+
+a{
+    text-align: none;
+}
