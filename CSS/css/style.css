@@ -26,9 +26,120 @@ body{
 
 .cabecera__nav__lista__enlace{
     margin-right: 3rem;
-    color: aliceblue;
+    color: blanchedalmond;
+}
+
+.cabecera__nav__lista__enlace:hover{
+    color: green;
 }
 
 a{
     text-align: none;
 }
+
+/*----------Seccion Principal----------*/
+.principal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-items: center;
+}
+
+.principal__titulo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.principal__viajes{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.principal__viajes__art{
+    width: 30%;
+}
+
+.principal__viajes__art__img{
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
+.principal__viajes__art__contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal__viajes__art__contenedor__span{
+    font-weight: bold;
+    width: 50%;
+}
+
+.principal__viajes__art__contenedor__enlace{
+    background-color: grey;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    font-size: 1.1rem;
+    margin-left: 0.75rem;
+}
+.principal__viajes__art__contenedor__enlace:hover{
+    background-color: #010101;
+}
+
+.principal__contacto{
+    width: 100%;
+    background-color: black;
+    margin-top: 5rem;
+}
+.principal__contacto__form__contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.principal__contacto__form__contenedor__titulo{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.principal__contacto__form__contenedor__div{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.principal__contacto__form__contenedor__email{
+    margin-bottom: 0.5rem;
+    padding: 0.35rem;
+    border: 0;
+    border-radius: 0.35rem;
+}
+
+.principal__contacto__form__contenedor__boton{
+    margin-bottom: 0.5rem;
+    padding: 0.35rem;
+    text-align: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 0.35rem;
+    background-color: gray;
+    color: aliceblue;
+    font-size: 0.9rem;
+    border: 0;
+}
+
+.principal__contacto__form__contenedor__boton:hover{
+    background-color: yellowgreen;
+    color: #010101;
+}
+
+/*----------Seccion footer----------*/
