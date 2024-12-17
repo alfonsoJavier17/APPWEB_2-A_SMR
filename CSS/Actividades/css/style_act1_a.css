@@ -1,0 +1,36 @@
+.cabecera {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cabecera__logo {
+    width: 20%;
+}
+
+.cabecera__nav {
+    position: absolute;
+    bottom: 0;
+    background-color: #4d4d4d; 
+    width: 100%;
+    margin-right: auto;
+    text-decoration: none; 
+}
+
+.cabecera__nav__lista {
+    display: flex;
+}
+
+.cabecera__nav__lista__enlace {
+    margin: 1rem;
+    color: white;
+    text-decoration: none; 
+    
+}
+
+.cabecera__nav__lista__enlace:hover {
+    color: green;
+    text-decoration: underline;
+}
