@@ -7,7 +7,6 @@
 </head>
 <body>
     <form action="/submit" method="post">
-        <!-- Información Personal -->
         <fieldset>
             <legend>Información Personal</legend>
             
@@ -30,8 +29,6 @@
             <input type="radio" id="otro" name="genero" value="Otro" required>
             <label for="otro">Otro</label>
         </fieldset>
-        
-        <!-- Información de Contacto -->
         <fieldset>
             <legend>Información de Contacto</legend>
             
@@ -44,8 +41,6 @@
             <label for="direccion">Dirección</label>
             <textarea id="direccion" name="direccion" rows="3"></textarea>
         </fieldset>
-        
-        <!-- Información de Cuenta -->
         <fieldset>
             <legend>Información de Cuenta</legend>
             
@@ -58,8 +53,6 @@
             <label for="confirmar-contrasena">Confirmación de Contraseña <span>*</span></label>
             <input type="password" id="confirmar-contrasena" name="confirmar-contrasena" required>
         </fieldset>
-        
-        <!-- Preferencias -->
         <fieldset>
             <legend>Preferencias</legend>
             
@@ -74,9 +67,6 @@
             <input type="checkbox" id="terminos" name="terminos" required>
             <label for="terminos">Acepto los Términos y Condiciones <span>*</span></label>
         </fieldset>
-        
-        <!-- Botón de envío -->
-        <button type="submit">Registrar</button>
     </form>
 </body>
 </html>
