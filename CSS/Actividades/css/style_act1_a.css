@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 .cabecera {
     background-color: black;
     display: flex;
@@ -11,12 +15,11 @@
 }
 
 .cabecera__nav {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: #4d4d4d; 
     width: 100%;
     margin-right: auto;
-    text-decoration: none; 
 }
 
 .cabecera__nav__lista {
@@ -26,8 +29,8 @@
 .cabecera__nav__lista__enlace {
     margin: 1rem;
     color: white;
-    text-decoration: none; 
-    
+    text-decoration: none;
+    font-family: Arial, sans-serif    
 }
 
 .cabecera__nav__lista__enlace:hover {
